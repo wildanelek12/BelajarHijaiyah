@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ic_home"
         android:layout_width="@dimen/_25sdp"
         android:layout_height="@dimen/_25sdp"
         android:src="@drawable/ic_btn_home"
@@ -33,7 +33,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+        app:layout_constraintTop_toBottomOf="@+id/ic_home">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -42,6 +42,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_1"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
@@ -53,6 +54,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -66,6 +68,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_2"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 app:cardCornerRadius="@dimen/_5sdp">
@@ -76,6 +79,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -96,6 +100,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_3"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
@@ -107,6 +112,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -120,6 +126,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_4"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 app:cardCornerRadius="@dimen/_5sdp">
@@ -130,6 +137,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -150,6 +158,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_5"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
@@ -161,6 +170,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -174,6 +184,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_6"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 app:cardCornerRadius="@dimen/_5sdp">
@@ -184,6 +195,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -204,6 +216,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_7"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
@@ -215,6 +228,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -228,6 +242,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_8"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 app:cardCornerRadius="@dimen/_5sdp">
@@ -238,6 +253,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -258,6 +274,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_9"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
@@ -269,6 +286,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -282,6 +300,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_10"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 app:cardCornerRadius="@dimen/_5sdp">
@@ -292,6 +311,7 @@
                     android:background="#47BB94">
 
                     <TextView
+                        android:id="@+id/tv_10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="خ"
@@ -313,7 +333,71 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" >
+
+        <TextView
+            android:id="@+id/tv_soal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:text="فتي"
+            android:textAlignment="center"
+            android:textColor="#47BB94"
+            android:textSize="@dimen/_50ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Huruf sambung diatas adalah gabungan dari huruf hijaiyah apa saja yaa?"
+            android:textAlignment="center"
+            android:textColor="#4D4D4D"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_soal" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_jawaban_1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/cl_jawaban_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            app:layout_constraintHorizontal_chainStyle="packed"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_jawaban_3"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/cl_jawaban_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cl_jawaban_2"
+            app:layout_constraintTop_toTopOf="@+id/cl_jawaban_1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_jawaban_2"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/cl_jawaban_1"
+            app:layout_constraintEnd_toStartOf="@+id/cl_jawaban_3"
+            app:layout_constraintStart_toEndOf="@+id/cl_jawaban_1"
+            app:layout_constraintTop_toTopOf="@+id/cl_jawaban_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

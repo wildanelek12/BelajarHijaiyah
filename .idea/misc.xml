@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_belajar_menyambung.xml" value="0.67" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_gambar_hijaiyah.xml" value="0.49326145552560646" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_belajar_menyambung.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19939422607421875" />
       </map>

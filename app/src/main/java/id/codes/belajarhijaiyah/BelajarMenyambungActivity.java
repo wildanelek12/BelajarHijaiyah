@@ -17,11 +17,15 @@ import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class BelajarMenyambungActivity extends AppCompatActivity implements View.OnLongClickListener, View.OnDragListener {
 
 
     private String soal[] = {"فتي", "كذب", "كدر", "حكم", "خطي", "معك", "اكل", "ولد", "فصل", "ضرب"};
+    String randomize_hijaiyah [] = {"ع","غ","و","ا"};
+
+    ArrayList<String> mylist = new ArrayList<String>();
     String jawaban[][] = {
             {
                     "ب", "ص", "ف", "و", "ش", "ت", "ع", "ب", "ج", "ي"//fataya
@@ -93,8 +97,8 @@ public class BelajarMenyambungActivity extends AppCompatActivity implements View
         initView();
         hijaiyah = new ArrayList<String>();
         views = new ArrayList<View>() ;
-        setAwalJawaban();
-        setSoal();
+//        setAwalJawaban();
+//        setSoal();
         icHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,6 +108,19 @@ public class BelajarMenyambungActivity extends AppCompatActivity implements View
             }
         });
         implementEvents();
+
+        mylist.add("ع");
+        mylist.add("غ");
+        mylist.add("و");
+        mylist.add("ا");
+
+        Collections.shuffle(mylist);
+        String hijaiyah_new = "";
+        for (int i = 1; i < mylist.size() ; i++) {
+            hijaiyah_new += mylist.get(i);
+        }
+        tvSoal.setText(hijaiyah_new);
+        Toast.makeText(this, hijaiyah_new, Toast.LENGTH_SHORT).show();
 
     }
 
@@ -260,19 +277,7 @@ public class BelajarMenyambungActivity extends AppCompatActivity implements View
                 // Turns off any color tinting
                 // Invalidates the view to force a redraw
                 view.invalidate();
-
-                // Does a getResult(), and displays what happened.
-//                if(dragEvent.getResult())
-//                    Toast.makeText(this,"The drop was handled.",Toast.LENGTH_SHORT).show();
-//
-//                else
-//                    Toast.makeText(this,"The drop didn't work.",Toast.LENGTH_SHORT).show();
-
-
-                // returns true; the value is ignored.
                 return true;
-
-// An unknown action type was received.
             default:
                 Log.e("DragDrop Example","Unknown action type received by OnDragListener.");
                 break;

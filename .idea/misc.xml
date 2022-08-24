@@ -6,9 +6,11 @@
         <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/drawable/ic_btn_back.xml" value="0.113" />
         <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/drawable/rounded_white.xml" value="0.113" />
         <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_belajar_menyambung.xml" value="0.22" />
-        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_gambar_hijaiyah.xml" value="0.25" />
-        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/item_hijaiyah.xml" value="0.5" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_gambar_hijaiyah.xml" value="0.5" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_kumpulan_hijaiyah.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/item_hijaiyah.xml" value="0.9" />
+        <entry key="..\:/AndroidProject/BelajarHijaiyah/app/src/main/res/layout/item_list_hijaiyah.xml" value="0.44375" />
         <entry key="app/src/main/res/layout/activity_belajar_menyambung.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19939422607421875" />
       </map>

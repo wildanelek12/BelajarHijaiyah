@@ -14,7 +14,23 @@
         android:theme="@style/Theme.BelajarHijaiyah"
         tools:targetApi="31">
         <activity
+            android:name=".KumpulanHijaiyahActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
             android:name=".GambarHijaiyah"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".BelajarMenyambungActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="landscape">
             <intent-filter>
@@ -22,18 +38,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".BelajarMenyambungActivity"
-            android:exported="true"
-            android:screenOrientation="landscape">
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:screenOrientation="landscape">
-
         </activity>
     </application>
 
